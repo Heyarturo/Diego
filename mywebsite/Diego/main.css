@@ -1,0 +1,10 @@
+body{
+	background-image: url("libertad.jpg");
+	color: white;
+	font-family: cursive, homer simpson, arial, verdana;
+}
+
+img{
+	max-width: 30%;
+	min-width: 30%;
+}

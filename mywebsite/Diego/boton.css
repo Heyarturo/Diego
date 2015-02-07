@@ -1,0 +1,30 @@
+*{
+	font-family: helvetica;
+}
+
+input#boton{
+	padding:5px 50px;
+	color: black;
+	font-size: 1em;
+	background-color: #5dade2;
+	border:0px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-mod-border-radius:5px;
+	-o-border-radius:5px;
+	-webkit-box-shadow:0px 4px 0px #4aa4df;
+	-ms-box-shadow:0px 4px 0px #4aa4df;
+	-mod-box-shadow:0px 4px 0px #4aa4df;
+	-o-box-shadow:0px 4px 0px #4aa4df;
+	-webkit-transition: background-color .40s;
+	ms-transition: background-color .40s;
+	mod-transition: background-color .40s;
+	o-transition: background-color .40s;
+}
+
+input#boton:hover{
+	background-color: #7abbe7;
+}
+
+
+
