@@ -1,0 +1,11 @@
+#contenedor2, #contenedor3, #contenedor4, #contenedor5{
+	display:none;
+}
+
+#contenedor5{
+	background-color:black;
+}
+#bottons ul li{
+	list-style: none;
+	vertical-align:top;
+}
