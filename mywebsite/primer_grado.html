@@ -3,15 +3,16 @@
 <head>
 	<meta charset="utf-8">
 	<title>Primer Grado</title>
-	<link rel="shorcut icon" href="/mywebsite/img/favicon.png">
-	<link rel="stylesheet" href="/mywebsite/css/normalize.css">
-	<link rel="stylesheet" href="/mywebsite/css/default.css">
+	<link rel="shorcut icon" href="img/favicon.png">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/default.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="/mywebsite/css/font-awesome.min.css">
-	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-	<link rel="stylesheet" href="/mywebsite/css/animate.css">
-	<link rel="stylesheet" href="/mywebsite/css/responsiveslides.css">
-	<script src="/mywebsite/js/responsiveslides.js"></script>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/responsiveslides.css">
+	<script src="js/responsiveslides.js"></script>
+
 
 </head>
 
@@ -28,7 +29,17 @@
 <table border="5px" align="center">
 	<tr>
 		<td width="100px" align="center">Rojo</td>
-		<td width="100px" align="center"><i><a href="audio/red.mp3">Red</a></i></td>
+		<td width="100px" align="center">
+			<i>
+
+				<audio class="red" controls style="display:none">
+					<source src="audio/red.mp3" type="audio/mp3">
+					<source src="audio/red.ogg" type="audio/ogg">
+					<source src="audio/red.mpeg" type="audio/mpeg">
+				</audio>
+			</i>
+			<button class="BottonRed"> BottonRed</button>
+		</td>
 		<td width="30px" bgcolor="red"></td>
 	</tr>
 	<tr>
@@ -268,5 +279,10 @@
 	</div>
 
 </div>
-
+	<script>
+		$(".BottonRed").click(function(){
+			$(".red").trigger('play')
+			console.log("sasda");
+		})
+	</script>
 </body>
