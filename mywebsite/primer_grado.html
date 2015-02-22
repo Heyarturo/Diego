@@ -30,31 +30,60 @@
 	<tr>
 		<td width="100px" align="center">Rojo</td>
 		<td width="100px" align="center">
-			<i>
+			
 
 				<audio class="red" controls style="display:none">
 					<source src="audio/red.mp3" type="audio/mp3">
 					<source src="audio/red.ogg" type="audio/ogg">
 					<source src="audio/red.mpeg" type="audio/mpeg">
 				</audio>
-			</i>
-			<button class="BottonRed"> BottonRed</button>
+			
+			<button class="BottonRed"><i>Red</i></button>
 		</td>
 		<td width="30px" bgcolor="red"></td>
 	</tr>
+
 	<tr>
-		<td width="100px" align="center">Amarillo</td>
-		<td width="100px" align="center"><i><a href="audio/yellow.mp3">Yellow</a></i></td>
+		<td width="100px" align="center"><i>Amarillo</td>
+		<td width="100px" align="center">
+			
+				<audio class="yellow" controls style="display:none">
+					<source src="audio/yellow.mp3" type="audio/mp3">
+					<source src="audio/yellow.ogg" type="audio/ogg">
+					<source src="audio/yellow.mpeg" type="audio/mpeg">
+				</audio>
+			
+	<button class="BottonYellow"><i>Yellow</i></button>
+
+		</td>
 		<td width="30px" bgcolor="yellow"></td>
 	</tr>
 	<tr>
 		<td width="100px" align="center">Blanco</td>
-		<td width="100px" align="center"><i><a href="audio/white.mp3">White</a></i></td>
+		<td width="100px" align="center">
+			
+				<audio class="white" controls style="display:none">
+					<source src="audio/white.mp3" type="audio/mp3">
+					<source src="audio/white.ogg" type="audio/ogg">
+					<source src="audio/white.mpeg" type="audio/mpeg">
+				</audio>
+		
+			<button class="BottonWhite"><i>White</i></button>
+
+		</td>
 		<td width="30px" bgcolor="white"></td>
 	</tr>
 	<tr>
 		<td width="100px" align="center">Negro</td>
-		<td width="100px" align="center"><i><a href="audio/black.mp3">Black</a></i></td>
+		<td width="100px" align="center"><i><audio class="black" controls style="display:none">
+					<source src="audio/black.mp3" type="audio/mp3">
+					<source src="audio/black.ogg" type="audio/ogg">
+					<source src="audio/black.mpeg" type="audio/mpeg">
+				</audio>
+		
+			<button class="BottonBlack">Black</i></button>
+
+		</td>
 		<td width="30px" bgcolor="Black"></td>
 	</tr>
 	<tr>
@@ -284,5 +313,21 @@
 			$(".red").trigger('play')
 			console.log("sasda");
 		})
+
+		$(".BottonYellow").click(function(){
+			$(".yellow").trigger('play')
+			console.log("sasda");
+		})
+
+		$(".BottonWhite").click(function(){
+			$(".white").trigger('play')
+			console.log("sasda");
+		})
+
+		$(".BottonBlack").click(function(){
+			$(".black").trigger('play')
+			console.log("sasda");
+		})
 	</script>
 </body>
+</html>
