@@ -2,10 +2,25 @@
 	display:none;
 }
 
+p{
+text-align: justify;
+}
+
+section{
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-top: 1em;
+}
+
 #contenedor5{
 	background-color:black;
 }
 #bottons ul li{
 	list-style: none;
 	vertical-align:top;
+}
+
+button.transparentes{
+	background-color:transparent;
+	border:none;
 }

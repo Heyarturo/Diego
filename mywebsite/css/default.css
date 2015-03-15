@@ -22,7 +22,7 @@ a{
 	transition: all .3s;
 }
 a:hover{
-	color: #2fb677;
+	color: #000000;
 }
 .cabecera .menu{
 	float: right;

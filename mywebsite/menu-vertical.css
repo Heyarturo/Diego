@@ -1,40 +1,42 @@
 *{
-margin:0px;
-padding:0px;
+	margin:0px;
+	padding:0px;
 }
 
 div#menu{
-width:200px;
-margin-top:20px;
+	float: left;
+	width:200px;
+	margin-top:20px;
+}
+
+div.parrafo{
+	text-align: justify;
+	float: left;
+	margin-top: 3em;
+	margin-bottom: 4em;
+	margin-left: 2em;
+	margin-right: 2em;
+	max-width: 1000px;
 }
 
 div#menu ul li{
-margin-top:15px;
-font-family: roboto, arial;
-font-size: 20px;
-background-color:#24c06f;
-color: black;
-width:200px;
-padding-top:10px;
-padding-bottom:10px;
-border-radius: 0px 20px 20px 0px;
-padding-left: 15px;
-box-shadow:5px 0px 10px #939393;
--webkit-transition: padding-left 0.5s;
-border-bottom:2px solid #39f58f;
+	margin-top:15px;
+	font-family: roboto, arial;
+	font-size: 20px;
+	background-color:#24c06f;
+	color: black;
+	width:200px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-radius: 0px 20px 20px 0px;
+	padding-left: 15px;
+	box-shadow:5px 0px 10px #939393;
+	-webkit-transition: padding-left 0.5s;
+	border-bottom:2px solid #39f58f;
 }
 
 div#menu ul li:hover{
-padding-left:50px;
-color: white;
-
+	padding-left:50px;
+	font-style: oblique;
+	color: white;
 }
-
-
-
-
-
-
-
-
-

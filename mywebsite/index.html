@@ -1,22 +1,53 @@
 <!DCOTYPE html>
-<html>
+<html lang="es">
 	<head>
 		<meta charset="utf-8" >
+		<link rel="shorcut icon" href="img/favicon.png">
 		<link rel="stylesheet" href="main.css">
 		<link rel="stylesheet" href="boton.css">
+		<script src="js/jquery-1.11.1.min.js"></script>
 		<title>Learn English</title>
 	</head>
+	<style>
+		body{
+			background-image: url("fondo.jpg");
+			background: relative;
+			color: #fff;
+			font-family: roboto, arial, verdana;
+		}
+
+		img{
+			max-width: 30%;
+			min-width: 30%;
+		}
+	</style>
 	
 	<body margin-top: 100px><center>
-		<div class="cold-md-6 ">
-		<br><br><br><br>
+		<div>
+			<br><br><br><br>
 			<h1>English 4U</h1>
 			<h2>¡Aprende inglés ya!</h2>
 			<br>
-			<a href="home.html"><img src="logo2.png" onmouseover="this.src='logo.png';" onmouseout="this.src='logo2.png';"/></a>
-			<h3>Haz click en la imagen para ingresar.</h3>
-			
-				
+			<a onclick="entrar()"><img src="logo2.png" onmouseover="this.src='logo.png';" onmouseout="this.src='logo2.png';"/></a>
+			<h3>Haz click en la imagen para ingresar.</h3>	
+
+			<audio class="english_4_you" controls style="display:none">
+				<source src="audio/english_4_you.mp3" type="audio/mp3">
+				<source src="audio/english_4_you.ogg" type="audio/ogg">
+				<source src="audio/english_4_you.mpeg" type="audio/mpeg">
+			</audio>
 		</div>
+		<script>
+		function entrar (){
+
+			$(".english_4_you").trigger('play');
+
+
+			setTimeout(function(){
+				window.location.href="home.html"
+			},1400)
+		}
+
+		</script>
 	</body></center>
 </html>

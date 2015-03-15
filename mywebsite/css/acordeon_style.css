@@ -4,14 +4,13 @@ padding:0px;
 font-family: helvetica;
 }
 
-
 div#acordeon{
 margin: 40px auto;
 width:600px;
 min-height:50px;
 background-color: red;
 overflow: hidden;
-border-radius:5px;
+border-radius:10px;
 }
 
 div.subapartado{
@@ -50,22 +49,3 @@ color: white;
 div.subapartado:hover div.info{
 height:180px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
